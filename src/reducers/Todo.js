@@ -21,6 +21,7 @@ const todoReducer = (state = initialState, action) => {
         ...state,
         list: newlist,
       };
+
     default:
       return state;
   }
